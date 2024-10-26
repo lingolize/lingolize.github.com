@@ -1,0 +1,74 @@
+body {
+    background-color: #121212;
+    color: white;
+    margin: 0;
+}
+
+@media screen and (prefers-color-scheme: light) {
+    body {
+        background-color: white;
+        color: #121212;
+        margin: 0;
+    }
+}
+
+#loader {
+    width: 100vw;
+    height: 100vh;
+    /* display: block; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
+
+#loader-title {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+
+    font-weight: 500;
+    font-size: medium;
+}
+
+.lds-dual-ring {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+}
+
+.lds-dual-ring:after {
+    content: " ";
+    display: block;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border-radius: 50%;
+    border: 6px solid;
+    border-color: #fff transparent #fff transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+}
+
+@media screen and (prefers-color-scheme: light) {
+    .lds-dual-ring:after {
+        content: " ";
+        display: block;
+        width: 64px;
+        height: 64px;
+        margin: 8px;
+        border-radius: 50%;
+        border: 6px solid;
+        border-color: #121212 transparent #121212 transparent;
+        animation: lds-dual-ring 1.2s linear infinite;
+    }
+}
+
+@keyframes lds-dual-ring {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
