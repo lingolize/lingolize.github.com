@@ -1,11 +1,11 @@
 {
-    "name": "app",
-    "short_name": "app",
+    "name": "Lingolize hackyStories",
+    "short_name": "Lingolize",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "Lingolize - don't learn, acquire!",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
