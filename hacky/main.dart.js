@@ -28370,7 +28370,7 @@ p=4
 k='{"page": '+a2+', "per_page": '+A.l(a0)+"}"
 e=t.N
 s=7
-return A.n(l.fC("POST",A.iC("https","v2-backend.lingolize.com","/api/images",null),A.as(["Authorization","Bearer "+A.l($.dn)],e,e),k,null),$async$aBv)
+return A.n(l.fC("POST",A.iC("https","api.lingolize.com","/api/images",null),A.as(["Authorization","Bearer "+A.l($.dn)],e,e),k,null),$async$aBv)
 case 7:j=a4
 e=j
 i=B.t.ec(A.iF(A.iD(e.e).c.a.i(0,"charset")).cA(e.w),null)
@@ -28415,7 +28415,7 @@ p=5
 j='{"sourceLanguage": "'+b+'", "targetLanguage": "'+c+'", "url": "'+d+'", "id": '+a+"}"
 e=t.N
 s=8
-return A.n(k.fC("POST",A.iC("https","v2-backend.lingolize.com","/api/describe/analyze/translate",null),A.as(["Authorization","Bearer "+A.l($.dn)],e,e),j,null),$async$aBr)
+return A.n(k.fC("POST",A.iC("https","api.lingolize.com","/api/describe/analyze/translate",null),A.as(["Authorization","Bearer "+A.l($.dn)],e,e),j,null),$async$aBr)
 case 8:i=a1
 e=i
 h=B.t.ec(A.eA(A.iF(A.iD(e.e).c.a.i(0,"charset")).cA(e.w)),null)
@@ -28450,7 +28450,7 @@ p=5
 j='{"sourceLanguage": "'+b+'", "targetLanguage": "'+c+'", "url": "'+d+'", "id": '+a+"}"
 e=t.N
 s=8
-return A.n(k.fC("POST",A.iC("https","v2-backend.lingolize.com","/api/tell_story/analyze/translate",null),A.as(["Authorization","Bearer "+A.l($.dn)],e,e),j,null),$async$aBu)
+return A.n(k.fC("POST",A.iC("https","api.lingolize.com","/api/tell_story/analyze/translate",null),A.as(["Authorization","Bearer "+A.l($.dn)],e,e),j,null),$async$aBu)
 case 8:i=a1
 e=i
 h=B.t.ec(A.eA(A.iF(A.iD(e.e).c.a.i(0,"charset")).cA(e.w)),null)
@@ -28493,7 +28493,7 @@ c='{"sourceLanguage": "'+a0+'", "targetLanguage": "'
 if(i==null)j=c+a1+'", "url": "'+a2+'", "id": '+d+"}"
 else j=c+a1+'", "url": "'+a2+'", "id": '+d+', "kind": "'+A.l(i)+'"}'}d=t.N
 s=8
-return A.n(k.fC("POST",A.iC("https","v2-backend.lingolize.com","/api/questions/analyze/translate",null),A.as(["Authorization","Bearer "+A.l($.dn)],d,d),j,null),$async$aBt)
+return A.n(k.fC("POST",A.iC("https","api.lingolize.com","/api/questions/analyze/translate",null),A.as(["Authorization","Bearer "+A.l($.dn)],d,d),j,null),$async$aBt)
 case 8:h=a4
 d=h
 g=B.t.ec(A.eA(A.iF(A.iD(d.e).c.a.i(0,"charset")).cA(d.w)),null)
@@ -28528,7 +28528,7 @@ p=5
 j='{"sourceLanguage": "'+b+'", "targetLanguage": "'+c+'", "url": "'+d+'", "id": '+a+"}"
 e=t.N
 s=8
-return A.n(k.fC("POST",A.iC("https","v2-backend.lingolize.com","/api/entities/analyze/translate",null),A.as(["Authorization","Bearer "+A.l($.dn)],e,e),j,null),$async$aBs)
+return A.n(k.fC("POST",A.iC("https","api.lingolize.com","/api/entities/analyze/translate",null),A.as(["Authorization","Bearer "+A.l($.dn)],e,e),j,null),$async$aBs)
 case 8:i=a1
 e=i
 h=B.t.ec(A.eA(A.iF(A.iD(e.e).c.a.i(0,"charset")).cA(e.w)),null)
@@ -28562,12 +28562,12 @@ p=5
 j='{"targetLanguage": "'+b+'", "url": "'+c+'", "id": '+a+"}"
 e=t.N
 s=8
-return A.n(k.fC("POST",A.iC("https","v2-backend.lingolize.com","/api/describe",null),A.as(["Authorization","Bearer "+A.l($.dn)],e,e),j,null),$async$a1n)
+return A.n(k.fC("POST",A.iC("https","api.lingolize.com","/api/describe",null),A.as(["Authorization","Bearer "+A.l($.dn)],e,e),j,null),$async$a1n)
 case 8:i=a1
 d=i
 h=B.t.ec(A.eA(A.iF(A.iD(d.e).c.a.i(0,"charset")).cA(d.w)),null)
 s=9
-return A.n(k.fC("POST",A.iC("https","v2-backend.lingolize.com","/api/describe/analyze",null),A.as(["Authorization","Bearer "+A.l($.dn)],e,e),j,null),$async$a1n)
+return A.n(k.fC("POST",A.iC("https","api.lingolize.com","/api/describe/analyze",null),A.as(["Authorization","Bearer "+A.l($.dn)],e,e),j,null),$async$a1n)
 case 9:i=a1
 e=i
 g=B.t.ec(A.eA(A.iF(A.iD(e.e).c.a.i(0,"charset")).cA(e.w)),null)
@@ -28603,12 +28603,12 @@ p=5
 j='{"targetLanguage": "'+b+'", "url": "'+c+'", "id": '+a+"}"
 e=t.N
 s=8
-return A.n(k.fC("POST",A.iC("https","v2-backend.lingolize.com","/api/tell_story",null),A.as(["Authorization","Bearer "+A.l($.dn)],e,e),j,null),$async$a1p)
+return A.n(k.fC("POST",A.iC("https","api.lingolize.com","/api/tell_story",null),A.as(["Authorization","Bearer "+A.l($.dn)],e,e),j,null),$async$a1p)
 case 8:i=a1
 d=i
 h=B.t.ec(A.eA(A.iF(A.iD(d.e).c.a.i(0,"charset")).cA(d.w)),null)
 s=9
-return A.n(k.fC("POST",A.iC("https","v2-backend.lingolize.com","/api/tell_story/analyze",null),A.as(["Authorization","Bearer "+A.l($.dn)],e,e),j,null),$async$a1p)
+return A.n(k.fC("POST",A.iC("https","api.lingolize.com","/api/tell_story/analyze",null),A.as(["Authorization","Bearer "+A.l($.dn)],e,e),j,null),$async$a1p)
 case 9:i=a1
 e=i
 g=B.t.ec(A.eA(A.iF(A.iD(e.e).c.a.i(0,"charset")).cA(e.w)),null)
@@ -28691,12 +28691,12 @@ c='{"targetLanguage": "'+a0+'", "url": "'
 if(i==null)j=c+a1+'", "id": '+d+"}"
 else j=c+a1+'", "id": '+d+', "kind": "'+A.l(i)+'"}'}d=t.N
 s=8
-return A.n(k.fC("POST",A.iC("https","v2-backend.lingolize.com","/api/questions",null),A.as(["Authorization","Bearer "+A.l($.dn)],d,d),j,null),$async$a1o)
+return A.n(k.fC("POST",A.iC("https","api.lingolize.com","/api/questions",null),A.as(["Authorization","Bearer "+A.l($.dn)],d,d),j,null),$async$a1o)
 case 8:h=a3
 c=h
 g=B.t.ec(A.eA(A.iF(A.iD(c.e).c.a.i(0,"charset")).cA(c.w)),null)
 s=9
-return A.n(k.fC("POST",A.iC("https","v2-backend.lingolize.com","/api/questions/analyze",null),A.as(["Authorization","Bearer "+A.l($.dn)],d,d),j,null),$async$a1o)
+return A.n(k.fC("POST",A.iC("https","api.lingolize.com","/api/questions/analyze",null),A.as(["Authorization","Bearer "+A.l($.dn)],d,d),j,null),$async$a1o)
 case 9:h=a3
 d=h
 f=B.t.ec(A.eA(A.iF(A.iD(d.e).c.a.i(0,"charset")).cA(d.w)),null)
@@ -28732,17 +28732,17 @@ p=5
 j='{"targetLanguage": "'+a1+'", "url": "'+a2+'", "id": '+a0+"}"
 d=t.N
 s=8
-return A.n(k.fC("POST",A.iC("https","v2-backend.lingolize.com","/api/entities",null),A.as(["Authorization","Bearer "+A.l($.dn)],d,d),j,null),$async$K9)
+return A.n(k.fC("POST",A.iC("https","api.lingolize.com","/api/entities",null),A.as(["Authorization","Bearer "+A.l($.dn)],d,d),j,null),$async$K9)
 case 8:i=a4
 c=i
 h=B.t.ec(A.eA(A.iF(A.iD(c.e).c.a.i(0,"charset")).cA(c.w)),null)
 s=9
-return A.n(k.fC("POST",A.iC("https","v2-backend.lingolize.com","/api/entities/analyze",null),A.as(["Authorization","Bearer "+A.l($.dn)],d,d),j,null),$async$K9)
+return A.n(k.fC("POST",A.iC("https","api.lingolize.com","/api/entities/analyze",null),A.as(["Authorization","Bearer "+A.l($.dn)],d,d),j,null),$async$K9)
 case 9:i=a4
 c=i
 g=B.t.ec(A.eA(A.iF(A.iD(c.e).c.a.i(0,"charset")).cA(c.w)),null)
 s=10
-return A.n(k.fC("POST",A.iC("https","v2-backend.lingolize.com","/api/entities/audio",null),A.as(["Authorization","Bearer "+A.l($.dn)],d,d),j,null),$async$K9)
+return A.n(k.fC("POST",A.iC("https","api.lingolize.com","/api/entities/audio",null),A.as(["Authorization","Bearer "+A.l($.dn)],d,d),j,null),$async$K9)
 case 10:i=a4
 d=i
 f=B.t.ec(A.iF(A.iD(d.e).c.a.i(0,"charset")).cA(d.w),null)
